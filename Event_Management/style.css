@@ -433,7 +433,7 @@ h1, p {
 
 .footer-container{
     width: 90%;
-    margin: auto;
+    margin:auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
     gap:40px;
@@ -881,12 +881,12 @@ h1, p {
     }
 
     .h1{
-        font-size:22px ;
+        font-size:16px ;
     }
 
 
     .dic{
-        font-size: 12px;
+        font-size:10px;
     }
 
    .search{
@@ -924,7 +924,7 @@ h1, p {
     .about{
     background-color: #2c2c2c;
     color: #f5f5f5;
-    padding: 50px 0;
+    padding: 20px 0;
     text-align: center;
     margin-bottom: 10px;
     }
@@ -936,13 +936,13 @@ h1, p {
     }
 
     .about h2{
-        font-size:25px;
+        font-size:20px;
         color: chocolate;
         margin-bottom: 25px;
     }
 
     .about p{
-        font-size:14px;
+        font-size:10px;
         line-height: 1.8;
         max-width: 800px;
         margin: 0 auto 20px auto ;
@@ -959,7 +959,7 @@ h1, p {
         background: #3a3a3a;
         padding: 25px;
         border-radius: 15px;
-        flex-basis:150px;
+        flex-basis:120px;
         flex-grow: 1;
         flex-shrink: 1;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -971,28 +971,28 @@ h1, p {
     }
 
     .feature i{
-        font-size: 20px;
+        font-size:15px;
         color: chocolate;
     }
 
     .feature h3{
-        font-size: 22px;
+        font-size:15px;
         color: #ffcc80;
     }
 
     .feature p{
-        font-size:15px;
+        font-size:10px;
         color: #ddd;
     }
 
     /* -------------------------------------- About section completed-------------------------------------- */
 
     .contact h2{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact p{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .contact-form{
@@ -1055,7 +1055,7 @@ h1, p {
     }
 
     .footer-container{
-        gap:20px;
+        gap:10px;
     }
 
     .footer-box p{
@@ -1070,6 +1070,7 @@ h1, p {
 
     .footer-box input{
         font-size:10px;
+        width:80%;
     }
 
     .footer-box button{
@@ -1085,21 +1086,25 @@ h1, p {
     }
 
     .footer-box h2{
-        font-size:16px;
+        font-size:15px;
     }
 
     .footer-box h3{
-        font-size:16px;
+        font-size:15px;
     }
 
     .footer-box p,
     .footer-box ul li a{
-        font-size:12px;
+        font-size:10px;
         word-spacing:2px;
     }
 
     .footer-bottom p{
         font-size:10px;
+    }
+
+    .footer{
+    padding: 30px 0 0 0;
     }
 
 /* ------------------------------------------footer completed----------------------------------------- */
