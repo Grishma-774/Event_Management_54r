@@ -165,7 +165,7 @@ h1, p {
 
 .filter{
     padding: 12px 25px;
-    font-size:16px;
+    font-size:14px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -185,8 +185,8 @@ h1, p {
     color: white;
 }
 
+/*----------------------------------------------filter completed ------------------------------------------------------------ */
 
-/* ----------------------------------------------Event card------------------------------------------------------------ */
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -316,7 +316,7 @@ h1, p {
 }
 
 .about h2{
-    font-size: 40px;
+    font-size:30px;
     color: chocolate;
     margin-bottom: 25px;
 }
@@ -382,12 +382,12 @@ h1, p {
 }
 
 .contact h2{
-    font-size: 40px;
+    font-size:30px;
     color: chocolate;
 }
 
 .contact p{
-    font-size: 18px;
+    font-size:15px;
     margin-bottom:20px;
     color: #ddd;
 }
@@ -399,7 +399,7 @@ h1, p {
     margin-bottom: 20px;
     border-radius: 10px;
     border: none;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .contact-form button{
@@ -408,7 +408,7 @@ h1, p {
     border: none;
     background-color: chocolate;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -440,7 +440,7 @@ h1, p {
 }
 
 .footer-box p{
-    font-size: 14px;
+    font-size: 14spx;
     line-height: 1.6;
 }
 
@@ -492,24 +492,24 @@ h1, p {
     padding: 20px;
     margin-top: 40px;
     border-top: 1px solid rgba(255,255,255,0.2);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer-box h2{
-    font-size: 26px;
+    font-size:18px;
 }
 
 .footer-box h3{
-    font-size: 20px;
+    font-size:18px;
 }
 
 .footer-box p,
 .footer-box ul li a{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footer-bottom p{
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .footer{
