@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventify | Discover Events Near You</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-----------------------------------------------nav bar ------------------------------------->
+   <div class="nav">
+        <div class="container1">
+            <div class="container2">
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <p class="p">Eventify</p>
+            </div>
+            <i class="bi bi-list" id="menuIcon"></i>
+        </div>
+        <div class="container4" >
+                <div class="button">
+                    <a href="#home" class="btn">HOME</a>
+                </div>
+                <div class="button">
+                    <a href="#about" class="btn">ABOUT US</a>
+                </div>
+                <div class="button CONTACT">
+                    <a href="#contact" class="btn">CONTACT</a>
+                </div>
+        </div>
+   </div>
+   <!-------------------------------------nav bar completed ---------------------------------->
+
+   <!-- ------------------  hero section box1 =1000 box2=300 box=300-------------------- -->
+    <div class="box1" id="home">
+        <div class="box2">
+            <h1 class="h1">Find & Join Exciting Events in Your City</h1>
+            <p class="dic">Find workshops, concerts, and community gatherings in your city.</p>
+        </div>
+        <div class="box3">
+              <input type="search" placeholder="Search events" class="search">
+                <button class="search-btn">
+                  <i class="bi bi-search"></i>
+               </button> 
+        </div>
+    </div>
+    <!-- ------------------------------------------------ hero section ------------------------------------- -->
+
+    <!-- /* ----------------------------------------------Event card------------------------------------------------------------ */ -->
+    <div class="filter-buttons">
+        <button data-filter="all" class="filter">All</button>
+        <button data-filter="concert" class="filter">Concert</button>
+        <button data-filter="workshop" class="filter">Workshop</button>
+        <button data-filter="art" class="filter">Art</button>
+        <button data-filter="wellness" class="filter">Wellness</button>
+        <button data-filter="food" class="filter">Food</button>
+        <button data-filter="comedy" class="filter">Comedy</button>
+    </div>
+    <div class="grid-container">
+        <div class="item" data-category="concert">
+            <div class="item2">
+                <img src="event_card1.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Summer Beats Live Concert</p>
+                </div>
+                <div class=detail2>
+                    <p>March 25, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i> City Arena, New York</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="1">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="workshop">
+            <div class="item2">
+                <img src="event_card2.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Full Stack Web Dev Bootcamp</p>
+                </div>
+                <div class=detail2>
+                    <p>April 2, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Tech Hub Center, San Francisco</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="2">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="art">
+            <div class="item2">
+                <img src="event_card3.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Modern Art & Creativity Expo</p>
+                </div>
+                <div class=detail2>
+                    <p>April 10, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Downtown Art Gallery, Chicago</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="3">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="wellness">
+            <div class="item2">
+                <img src="event_card4.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Sunrise Yoga Retreat</p>
+                </div>
+                <div class=detail2>
+                    <p>April 15, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Green Park Gardens, Los Angeles</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="4">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="food">
+            <div class="item2">
+                <img src="event_card5.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>International Street Food Fest</p>
+                </div>
+                <div class=detail2>
+                    <p>April 20, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Central Park, New York</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="5">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="comedy">
+            <div class="item2">
+                <img src="event_card6.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Laugh Out Loud Comedy Show</p>
+                </div>
+                <div class=detail2>
+                    <p>April 28, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Grand Theater, Boston</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="6">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="concert">
+            <div class="item2">
+                <img src="concert_image3.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>EDM Neon Night Festival</p>
+                </div>
+                <div class=detail2>
+                    <p>April 5, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Sky Dome Stadium, Las Vegas</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="7">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="concert">
+            <div class="item2">
+                <img src="concert_image2.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Classical Symphony Evening</p>
+                </div>
+                <div class=detail2>
+                    <p>April 18, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Grand Opera Hall, Chicago</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="8">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="workshop">
+            <div class="item2">
+                <img src="workshop_2.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>UI/UX Design Masterclass</p>
+                </div>
+                <div class=detail2>
+                    <p>April 12, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Innovation Lab, Seattle</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="9">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="workshop">
+            <div class="item2">
+                <img src="workshop3.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>AI & Machine Learning Seminar</p>
+                </div>
+                <div class=detail2>
+                    <p>April 22, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Silicon Tech Park, Austin</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="10">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="art">
+            <div class="item2">
+                <img src="art2.webp" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>International Photography Expo</p>
+                </div>
+                <div class=detail2>
+                    <p>April 19, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Lens Studio Hall, Boston</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="11">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="art">
+            <div class="item2">
+                <img src="art3.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Handmade Crafts & Design Fair</p>
+                </div>
+                <div class=detail2>
+                    <p>April 27, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Artisan Market Square, Portland</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="12">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="wellness">
+            <div class="item2">
+                <img src="wellness.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Meditation & Mindfulness Camp</p>
+                </div>
+                <div class=detail2>
+                    <p>April 21, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Peace Valley Resort, Colorado</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="13">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="wellness">
+            <div class="item2">
+                <img src="wellness2.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Outdoor Fitness Bootcamp</p>
+                </div>
+                <div class=detail2>
+                    <p>April 30, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Central Fitness Arena, Miami</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="14">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="food">
+            <div class="item2">
+                <img src="comedy1.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Dessert Carnival 2025</p>
+                </div>
+                <div class=detail2>
+                    <p>April 28, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Sweet Treats Plaza, Houston</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="15">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item" data-category="comedy">
+            <div class="item2">
+                <img src="comedy2.jpg" alt="" class="img">
+            </div>
+            <div class="item21">
+                <div class="detail1">
+                    <p>Saturday Night Open Mic</p>
+                </div>
+                <div class=detail2>
+                    <p>May 3, 2025</p>
+                </div>
+                <div class="detail3">
+                    <p><i class="bi bi-geo-alt-fill"></i>Smile Club Lounge, Denver</p>
+                </div>
+                <div class="view-details">
+                    <button class="view" data-id="16">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------event cards completed------------------------------------- -->
+    
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2>About Eventify</h2>
+            <p>
+                Eventify is your gateway to discovering and joining amazing events across the city.
+                Whether it's music, art, workshops, wellness, or food festivals, we bring the community together.
+                Explore events, connect with like-minded people, and make every experience unforgettable.
+            </p>
+            <div class="about-features">
+                <div class="feature">
+                    <i class="bi bi-search"></i>
+                    <h3>Find Events</h3>
+                    <p>Search and discover events that match your interests in your city.</p>
+                </div>
+                <div class="feature">
+                    <i class="bi bi-people"></i>
+                    <h3>Connect</h3>
+                    <p>Meet people who share your passions and attend events together.</p>
+                </div>
+                <div class="feature">
+                    <i class="bi bi-calendar-event"></i>
+                    <h3>Stay Updated</h3>
+                    <p>Never miss out on exciting happenings with our curated event updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------- Aboutus completed ------------------------------------ -->
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? Reach out to us!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------contact us completed------------------------- -->
+
+    <footer class="footer">
+        <div class="footer-container">
+
+        <!-- Column 1 -->
+            <div class="footer-box">
+                <h2>Eventify</h2>
+                <p>Your one-stop solution for unforgettable events. We bring ideas to life.</p>
+            </div>
+
+        <!-- Column 2 -->
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        <!-- Column 3 -->
+            <div class="footer-box">
+                <h3>Contact Us</h3>
+                <p>Email: info@eventify.com</p>
+                <p>Phone: +91 9876543210</p>
+                <p>Hyderabad, India</p>
+            </div>
+
+        <!-- Column 4 -->
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest events</p>
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Eventify | Designed by Grishma 💜</p>
+        </div>
+    </footer>
+    <!-- /* ----------------------------------------------Footer  completed------------------------------------------------------------ */ -->
+    
+    <div class="modal">
+        <div class="modal_content">
+            <div>
+                <i class="bi bi-x" id="closebtn"></i>
+            </div>
+            <div>
+                <p class="titles"></p>
+            </div>
+            <div class="img_block">
+                <img src="" alt="">
+            </div>
+            <div>
+                <p class="desc"></p>
+            </div>
+            <div id="dates">
+                <i class="bi-calendar-event"></i><p class="dates"></p>
+            </div>
+            <div id="locations">
+                <i class="bi-geo-alt"></i><p class="locations"></p>
+            </div>
+            <div>
+                <p class="prices"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
