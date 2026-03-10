@@ -239,3 +239,16 @@ for(let vie of view){
 closebtn.addEventListener("click",function(){
     modal.classList.remove("shows")
 })
+
+// ------------------------------------------------- Log out functionality -------------------------------------
+
+// if(!localStorage.getItem("isLoggedIn")){
+//   window.location.href="login.html"
+// }
+
+let logout=document.getElementById("logout")
+
+logout.addEventListener("click",function(){
+  localStorage.removeItem("isLoggedIn")
+  window.location.href="login.html"
+})

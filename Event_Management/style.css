@@ -835,15 +835,13 @@ h1, p {
     }
 
     .show{
-        min-height:140px;
+        min-height:180px;
         opacity:1;
     }
 
     .button{
         margin-right: 20px;
-        text-align: center;
-    
-        
+        text-align: center;  
     }
 
     .btn{
