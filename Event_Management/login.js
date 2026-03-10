@@ -22,6 +22,7 @@ btn.addEventListener("click",function(){
         isvalid=false
     }
     else{
+        err[0].textContent=""
         err[0].classList.remove("show")
     }
 
@@ -31,6 +32,7 @@ btn.addEventListener("click",function(){
         isvalid=false
     }
     else{
+        err[1].textContent=""
         err[1].classList.remove("show")
     }
 
