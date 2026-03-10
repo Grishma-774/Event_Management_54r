@@ -242,9 +242,9 @@ closebtn.addEventListener("click",function(){
 
 // ------------------------------------------------- Log out functionality -------------------------------------
 
-// if(!localStorage.getItem("isLoggedIn")){
-//   window.location.href="login.html"
-// }
+if(!localStorage.getItem("isLoggedIn")){
+  window.location.href="login.html"
+}
 
 let logout=document.getElementById("logout")
 
